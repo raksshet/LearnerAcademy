@@ -1,0 +1,646 @@
+Jun 12, 2021 7:21:23 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version name:   Apache Tomcat/8.5.61
+Jun 12, 2021 7:21:23 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Dec 3 2020 14:03:28 UTC
+Jun 12, 2021 7:21:23 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version number: 8.5.61.0
+Jun 12, 2021 7:21:23 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 10
+Jun 12, 2021 7:21:23 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.0
+Jun 12, 2021 7:21:23 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Jun 12, 2021 7:21:23 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             F:\Rakshith\SoftwareAndTools\Eclipse\2021-03\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\jre
+Jun 12, 2021 7:21:23 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           15.0.2+7-27
+Jun 12, 2021 7:21:23 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Jun 12, 2021 7:21:23 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         F:\Rakshith\Projects\Phase2Project\.metadata\.plugins\org.eclipse.wst.server.core\tmp0
+Jun 12, 2021 7:21:23 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         F:\Rakshith\SoftwareAndTools\apache-tomcat-8.5\apache-tomcat-8.5.61
+Jun 12, 2021 7:21:23 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=F:\Rakshith\Projects\Phase2Project\.metadata\.plugins\org.eclipse.wst.server.core\tmp0
+Jun 12, 2021 7:21:23 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=F:\Rakshith\SoftwareAndTools\apache-tomcat-8.5\apache-tomcat-8.5.61
+Jun 12, 2021 7:21:24 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dwtp.deploy=F:\Rakshith\Projects\Phase2Project\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps
+Jun 12, 2021 7:21:24 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dfile.encoding=Cp1252
+Jun 12, 2021 7:21:24 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:+ShowCodeDetailsInExceptionMessages
+Jun 12, 2021 7:21:24 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [F:\Rakshith\SoftwareAndTools\Eclipse\2021-03\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;F:/Rakshith/SoftwareAndTools/Eclipse/2021-03/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin/server;F:/Rakshith/SoftwareAndTools/Eclipse/2021-03/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Users\user\python;C:\Users\user\python\Library\mingw-w64\bin;C:\Users\user\python\Library\usr\bin;C:\Users\user\python\Library\bin;C:\Users\user\python\Scripts;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\Java\jdk-12.0.2\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;%JRE_HOME%;C:\Program Files\Git\cmd;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\user\AppData\Local\Microsoft\WindowsApps;C:\Users\user\AppData\Local\atom\bin;F:\Rakshith\SoftwareAndTools\apache-tomcat-10.0.2;C:\Program Files\Java\jdk1.8.0_281\bin;C:\Program Files\Java\jre1.8.0_281;;F:\Rakshith\SoftwareAndTools\Eclipse\2021-03\eclipse;;.]
+Jun 12, 2021 7:21:24 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8080"]
+Jun 12, 2021 7:21:24 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Jun 12, 2021 7:21:24 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 3118 ms
+Jun 12, 2021 7:21:24 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Catalina]
+Jun 12, 2021 7:21:24 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.5.61
+Jun 12, 2021 7:21:30 AM org.apache.jasper.servlet.TldScanner scanJars
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jun 12, 2021 7:21:30 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8080"]
+Jun 12, 2021 7:21:30 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 5904 ms
+values jdbc:mysql://localhost:3306/academy root root
+Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+SELECT * FROM user_details WHERE username='sdfdsf'
+values jdbc:mysql://localhost:3306/academy root root
+SELECT * FROM user_details WHERE username='admin'
+ Before Values are admin admin admin admin
+ success
+Jun 12, 2021 7:25:46 AM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate ORM core version 5.4.32.Final
+Jun 12, 2021 7:25:48 AM org.hibernate.annotations.common.reflection.java.JavaReflectionManager <clinit>
+INFO: HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+Jun 12, 2021 7:25:49 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+WARN: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+Jun 12, 2021 7:25:49 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/academyoflearners]
+Jun 12, 2021 7:25:49 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001001: Connection properties: {password=****, user=root}
+Jun 12, 2021 7:25:49 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001003: Autocommit mode: false
+Jun 12, 2021 7:25:49 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
+INFO: HHH000115: Hibernate connection pool size: 10 (min=1)
+Jun 12, 2021 7:25:49 AM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+Jun 12, 2021 7:25:53 AM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2b2d8905] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Jun 12, 2021 7:25:53 AM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+INFO: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Hibernate: 
+    insert 
+    into
+        SUBJECTS
+        (SUBJECT_DESC, SUBJECT_NAME) 
+    values
+        (?, ?)
+Jun 12, 2021 7:30:20 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+WARN: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+Jun 12, 2021 7:30:20 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/academyoflearners]
+Jun 12, 2021 7:30:20 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001001: Connection properties: {password=****, user=root}
+Jun 12, 2021 7:30:20 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001003: Autocommit mode: false
+Jun 12, 2021 7:30:20 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
+INFO: HHH000115: Hibernate connection pool size: 10 (min=1)
+Jun 12, 2021 7:30:20 AM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+Jun 12, 2021 7:30:20 AM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@71f811d3] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Jun 12, 2021 7:30:21 AM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+INFO: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Hibernate: 
+    insert 
+    into
+        CLASSROOMS
+        (CLASSROOM_CAPEX, CLASSROOM_NAME) 
+    values
+        (?, ?)
+Jun 12, 2021 7:34:03 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+WARN: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+Jun 12, 2021 7:34:03 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/academyoflearners]
+Jun 12, 2021 7:34:03 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001001: Connection properties: {password=****, user=root}
+Jun 12, 2021 7:34:03 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001003: Autocommit mode: false
+Jun 12, 2021 7:34:03 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
+INFO: HHH000115: Hibernate connection pool size: 10 (min=1)
+Jun 12, 2021 7:34:03 AM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+Jun 12, 2021 7:34:03 AM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4b196dde] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Jun 12, 2021 7:34:03 AM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+INFO: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Hibernate: 
+    insert 
+    into
+        TEACHERS
+        (TEACHER_FNAME, TEACHER_LNAME) 
+    values
+        (?, ?)
+classname is ClassE
+Jun 12, 2021 7:36:40 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+WARN: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+Jun 12, 2021 7:36:40 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/academyoflearners]
+Jun 12, 2021 7:36:40 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001001: Connection properties: {password=****, user=root}
+Jun 12, 2021 7:36:40 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001003: Autocommit mode: false
+Jun 12, 2021 7:36:40 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
+INFO: HHH000115: Hibernate connection pool size: 10 (min=1)
+Jun 12, 2021 7:36:40 AM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+Jun 12, 2021 7:36:40 AM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@ea2c52f] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Jun 12, 2021 7:36:40 AM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+INFO: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Hibernate: 
+    select
+        classroom0_.CLASSROOM_ID as classroo1_0_,
+        classroom0_.CLASSROOM_CAPEX as classroo2_0_,
+        classroom0_.CLASSROOM_NAME as classroo3_0_ 
+    from
+        CLASSROOMS classroom0_ 
+    where
+        classroom_name=?
+Hibernate: 
+    select
+        next_val as id_val 
+    from
+        hibernate_sequence for update
+            
+Hibernate: 
+    update
+        hibernate_sequence 
+    set
+        next_val= ? 
+    where
+        next_val=?
+Hibernate: 
+    insert 
+    into
+        Student
+        (student_class_CLASSROOM_ID, student_fname, student_lname, student_id) 
+    values
+        (?, ?, ?, ?)
+classname is ClassG
+Jun 12, 2021 7:39:02 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+WARN: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+Jun 12, 2021 7:39:02 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/academyoflearners]
+Jun 12, 2021 7:39:02 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001001: Connection properties: {password=****, user=root}
+Jun 12, 2021 7:39:02 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001003: Autocommit mode: false
+Jun 12, 2021 7:39:02 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
+INFO: HHH000115: Hibernate connection pool size: 10 (min=1)
+Jun 12, 2021 7:39:02 AM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+Jun 12, 2021 7:39:02 AM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@218ed831] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Jun 12, 2021 7:39:03 AM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+INFO: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Hibernate: 
+    select
+        classroom0_.CLASSROOM_ID as classroo1_0_,
+        classroom0_.CLASSROOM_CAPEX as classroo2_0_,
+        classroom0_.CLASSROOM_NAME as classroo3_0_ 
+    from
+        CLASSROOMS classroom0_ 
+    where
+        classroom_name=?
+Jun 12, 2021 7:43:18 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+WARN: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+Jun 12, 2021 7:43:18 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/academyoflearners]
+Jun 12, 2021 7:43:18 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001001: Connection properties: {password=****, user=root}
+Jun 12, 2021 7:43:18 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001003: Autocommit mode: false
+Jun 12, 2021 7:43:18 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
+INFO: HHH000115: Hibernate connection pool size: 10 (min=1)
+Jun 12, 2021 7:43:18 AM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+Jun 12, 2021 7:43:18 AM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@f2eb746] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Jun 12, 2021 7:43:19 AM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+INFO: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Hibernate: 
+    insert 
+    into
+        CLASSROOMS
+        (CLASSROOM_CAPEX, CLASSROOM_NAME) 
+    values
+        (?, ?)
+Jun 12, 2021 7:46:38 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+WARN: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+Jun 12, 2021 7:46:38 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/academyoflearners]
+Jun 12, 2021 7:46:38 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001001: Connection properties: {password=****, user=root}
+Jun 12, 2021 7:46:38 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001003: Autocommit mode: false
+Jun 12, 2021 7:46:38 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
+INFO: HHH000115: Hibernate connection pool size: 10 (min=1)
+Jun 12, 2021 7:46:38 AM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+Jun 12, 2021 7:46:38 AM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7f0d5c71] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Jun 12, 2021 7:46:38 AM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+INFO: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Jun 12, 2021 7:47:36 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+WARN: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+Jun 12, 2021 7:47:36 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/academyoflearners]
+Jun 12, 2021 7:47:36 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001001: Connection properties: {password=****, user=root}
+Jun 12, 2021 7:47:36 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001003: Autocommit mode: false
+Jun 12, 2021 7:47:36 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
+INFO: HHH000115: Hibernate connection pool size: 10 (min=1)
+Jun 12, 2021 7:47:36 AM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+Jun 12, 2021 7:47:36 AM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7dc08b3c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Jun 12, 2021 7:47:36 AM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+INFO: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Jun 12, 2021 7:47:46 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+WARN: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+Jun 12, 2021 7:47:46 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/academyoflearners]
+Jun 12, 2021 7:47:46 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001001: Connection properties: {password=****, user=root}
+Jun 12, 2021 7:47:46 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001003: Autocommit mode: false
+Jun 12, 2021 7:47:46 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
+INFO: HHH000115: Hibernate connection pool size: 10 (min=1)
+Jun 12, 2021 7:47:46 AM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+Jun 12, 2021 7:47:47 AM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1c0b9805] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Jun 12, 2021 7:47:47 AM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+INFO: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Hibernate: 
+    select
+        classroom0_.CLASSROOM_ID as classroo1_0_,
+        classroom0_.CLASSROOM_CAPEX as classroo2_0_,
+        classroom0_.CLASSROOM_NAME as classroo3_0_ 
+    from
+        CLASSROOMS classroom0_ 
+    where
+        classroom_id=?
+Hibernate: 
+    select
+        subject0_.SUBJECT_ID as subject_1_4_,
+        subject0_.SUBJECT_DESC as subject_2_4_,
+        subject0_.SUBJECT_NAME as subject_3_4_ 
+    from
+        SUBJECTS subject0_ 
+    where
+        subject_id=?
+Jun 12, 2021 7:54:27 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+WARN: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+Jun 12, 2021 7:54:27 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/academyoflearners]
+Jun 12, 2021 7:54:27 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001001: Connection properties: {password=****, user=root}
+Jun 12, 2021 7:54:27 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001003: Autocommit mode: false
+Jun 12, 2021 7:54:27 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
+INFO: HHH000115: Hibernate connection pool size: 10 (min=1)
+Jun 12, 2021 7:54:27 AM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+Jun 12, 2021 7:54:27 AM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6879857d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Jun 12, 2021 7:54:27 AM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+INFO: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Hibernate: 
+    select
+        classroom0_.CLASSROOM_ID as classroo1_0_,
+        classroom0_.CLASSROOM_CAPEX as classroo2_0_,
+        classroom0_.CLASSROOM_NAME as classroo3_0_ 
+    from
+        CLASSROOMS classroom0_ 
+    where
+        classroom_id=?
+Hibernate: 
+    select
+        subject0_.SUBJECT_ID as subject_1_4_,
+        subject0_.SUBJECT_DESC as subject_2_4_,
+        subject0_.SUBJECT_NAME as subject_3_4_ 
+    from
+        SUBJECTS subject0_ 
+    where
+        subject_id=?
+INSERT INTO classrooms_subjects(subject_id,classroom_id) VALUES (9,10 )
+Hibernate: 
+    select
+        classroom0_.CLASSROOM_ID as classroo1_0_,
+        classroom0_.CLASSROOM_CAPEX as classroo2_0_,
+        classroom0_.CLASSROOM_NAME as classroo3_0_ 
+    from
+        CLASSROOMS classroom0_ 
+    where
+        classroom_id=?
+Hibernate: 
+    select
+        teacher0_.TEACHER_ID as teacher_1_5_,
+        teacher0_.TEACHER_FNAME as teacher_2_5_,
+        teacher0_.TEACHER_LNAME as teacher_3_5_ 
+    from
+        TEACHERS teacher0_ 
+    where
+        teacher_id=?
+INSERT INTO classrooms_teachers(teacher_id,classroom_id) VALUES (3,10 )
+Hibernate: 
+    select
+        subject0_.SUBJECT_ID as subject_1_4_,
+        subject0_.SUBJECT_DESC as subject_2_4_,
+        subject0_.SUBJECT_NAME as subject_3_4_ 
+    from
+        SUBJECTS subject0_ 
+    where
+        subject_id=?
+Hibernate: 
+    select
+        teacher0_.TEACHER_ID as teacher_1_5_,
+        teacher0_.TEACHER_FNAME as teacher_2_5_,
+        teacher0_.TEACHER_LNAME as teacher_3_5_ 
+    from
+        TEACHERS teacher0_ 
+    where
+        teacher_id=?
+INSERT INTO teachers_subjects(subject_id,teacher_id) VALUES (9,3 )
+Jun 12, 2021 7:59:15 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+WARN: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+Jun 12, 2021 7:59:15 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/academyoflearners]
+Jun 12, 2021 7:59:15 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001001: Connection properties: {password=****, user=root}
+Jun 12, 2021 7:59:15 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001003: Autocommit mode: false
+Jun 12, 2021 7:59:15 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
+INFO: HHH000115: Hibernate connection pool size: 10 (min=1)
+Jun 12, 2021 7:59:15 AM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+Jun 12, 2021 7:59:15 AM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1f5fcfca] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Jun 12, 2021 7:59:15 AM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+INFO: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Hibernate: 
+    select
+        classroom0_.CLASSROOM_ID as classroo1_0_,
+        classroom0_.CLASSROOM_CAPEX as classroo2_0_,
+        classroom0_.CLASSROOM_NAME as classroo3_0_ 
+    from
+        CLASSROOMS classroom0_ 
+    where
+        classroom_id=?
+Hibernate: 
+    select
+        subject0_.SUBJECT_ID as subject_1_4_,
+        subject0_.SUBJECT_DESC as subject_2_4_,
+        subject0_.SUBJECT_NAME as subject_3_4_ 
+    from
+        SUBJECTS subject0_ 
+    where
+        subject_id=?
+INSERT INTO classrooms_subjects(subject_id,classroom_id) VALUES (8,10 )
+Hibernate: 
+    select
+        classroom0_.CLASSROOM_ID as classroo1_0_,
+        classroom0_.CLASSROOM_CAPEX as classroo2_0_,
+        classroom0_.CLASSROOM_NAME as classroo3_0_ 
+    from
+        CLASSROOMS classroom0_ 
+    where
+        classroom_id=?
+Hibernate: 
+    select
+        teacher0_.TEACHER_ID as teacher_1_5_,
+        teacher0_.TEACHER_FNAME as teacher_2_5_,
+        teacher0_.TEACHER_LNAME as teacher_3_5_ 
+    from
+        TEACHERS teacher0_ 
+    where
+        teacher_id=?
+INSERT INTO classrooms_teachers(teacher_id,classroom_id) VALUES (2,10 )
+Hibernate: 
+    select
+        subject0_.SUBJECT_ID as subject_1_4_,
+        subject0_.SUBJECT_DESC as subject_2_4_,
+        subject0_.SUBJECT_NAME as subject_3_4_ 
+    from
+        SUBJECTS subject0_ 
+    where
+        subject_id=?
+Hibernate: 
+    select
+        teacher0_.TEACHER_ID as teacher_1_5_,
+        teacher0_.TEACHER_FNAME as teacher_2_5_,
+        teacher0_.TEACHER_LNAME as teacher_3_5_ 
+    from
+        TEACHERS teacher0_ 
+    where
+        teacher_id=?
+INSERT INTO teachers_subjects(subject_id,teacher_id) VALUES (8,2 )
+Jun 12, 2021 7:59:31 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+WARN: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+Jun 12, 2021 7:59:31 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/academyoflearners]
+Jun 12, 2021 7:59:31 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001001: Connection properties: {password=****, user=root}
+Jun 12, 2021 7:59:31 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001003: Autocommit mode: false
+Jun 12, 2021 7:59:31 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
+INFO: HHH000115: Hibernate connection pool size: 10 (min=1)
+Jun 12, 2021 7:59:31 AM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+Jun 12, 2021 7:59:31 AM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5f2604d7] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Jun 12, 2021 7:59:32 AM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+INFO: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Hibernate: 
+    select
+        classroom0_.CLASSROOM_ID as classroo1_0_,
+        classroom0_.CLASSROOM_CAPEX as classroo2_0_,
+        classroom0_.CLASSROOM_NAME as classroo3_0_ 
+    from
+        CLASSROOMS classroom0_ 
+    where
+        classroom_id=?
+Hibernate: 
+    select
+        subject0_.SUBJECT_ID as subject_1_4_,
+        subject0_.SUBJECT_DESC as subject_2_4_,
+        subject0_.SUBJECT_NAME as subject_3_4_ 
+    from
+        SUBJECTS subject0_ 
+    where
+        subject_id=?
+Hibernate: 
+    select
+        classroom0_.CLASSROOM_ID as classroo1_0_,
+        classroom0_.CLASSROOM_CAPEX as classroo2_0_,
+        classroom0_.CLASSROOM_NAME as classroo3_0_ 
+    from
+        CLASSROOMS classroom0_ 
+    where
+        classroom_id=?
+Hibernate: 
+    select
+        teacher0_.TEACHER_ID as teacher_1_5_,
+        teacher0_.TEACHER_FNAME as teacher_2_5_,
+        teacher0_.TEACHER_LNAME as teacher_3_5_ 
+    from
+        TEACHERS teacher0_ 
+    where
+        teacher_id=?
+Hibernate: 
+    select
+        subject0_.SUBJECT_ID as subject_1_4_,
+        subject0_.SUBJECT_DESC as subject_2_4_,
+        subject0_.SUBJECT_NAME as subject_3_4_ 
+    from
+        SUBJECTS subject0_ 
+    where
+        subject_id=?
+Hibernate: 
+    select
+        teacher0_.TEACHER_ID as teacher_1_5_,
+        teacher0_.TEACHER_FNAME as teacher_2_5_,
+        teacher0_.TEACHER_LNAME as teacher_3_5_ 
+    from
+        TEACHERS teacher0_ 
+    where
+        teacher_id=?
+Jun 12, 2021 8:00:07 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+WARN: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+Jun 12, 2021 8:00:07 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/academyoflearners]
+Jun 12, 2021 8:00:07 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001001: Connection properties: {password=****, user=root}
+Jun 12, 2021 8:00:07 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001003: Autocommit mode: false
+Jun 12, 2021 8:00:07 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
+INFO: HHH000115: Hibernate connection pool size: 10 (min=1)
+Jun 12, 2021 8:00:07 AM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+Jun 12, 2021 8:00:07 AM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5b85eb6f] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Jun 12, 2021 8:00:07 AM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+INFO: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Hibernate: 
+    select
+        classroom0_.CLASSROOM_ID as classroo1_0_,
+        classroom0_.CLASSROOM_CAPEX as classroo2_0_,
+        classroom0_.CLASSROOM_NAME as classroo3_0_ 
+    from
+        CLASSROOMS classroom0_ 
+    where
+        classroom_id=?
+Hibernate: 
+    select
+        subject0_.SUBJECT_ID as subject_1_4_,
+        subject0_.SUBJECT_DESC as subject_2_4_,
+        subject0_.SUBJECT_NAME as subject_3_4_ 
+    from
+        SUBJECTS subject0_ 
+    where
+        subject_id=?
+INSERT INTO classrooms_subjects(subject_id,classroom_id) VALUES (8,11 )
+Hibernate: 
+    select
+        classroom0_.CLASSROOM_ID as classroo1_0_,
+        classroom0_.CLASSROOM_CAPEX as classroo2_0_,
+        classroom0_.CLASSROOM_NAME as classroo3_0_ 
+    from
+        CLASSROOMS classroom0_ 
+    where
+        classroom_id=?
+Hibernate: 
+    select
+        teacher0_.TEACHER_ID as teacher_1_5_,
+        teacher0_.TEACHER_FNAME as teacher_2_5_,
+        teacher0_.TEACHER_LNAME as teacher_3_5_ 
+    from
+        TEACHERS teacher0_ 
+    where
+        teacher_id=?
+INSERT INTO classrooms_teachers(teacher_id,classroom_id) VALUES (2,11 )
+Hibernate: 
+    select
+        subject0_.SUBJECT_ID as subject_1_4_,
+        subject0_.SUBJECT_DESC as subject_2_4_,
+        subject0_.SUBJECT_NAME as subject_3_4_ 
+    from
+        SUBJECTS subject0_ 
+    where
+        subject_id=?
+Hibernate: 
+    select
+        teacher0_.TEACHER_ID as teacher_1_5_,
+        teacher0_.TEACHER_FNAME as teacher_2_5_,
+        teacher0_.TEACHER_LNAME as teacher_3_5_ 
+    from
+        TEACHERS teacher0_ 
+    where
+        teacher_id=?
+INSERT INTO teachers_subjects(subject_id,teacher_id) VALUES (8,2 )
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '8-2' for key 'teachers_subjects.PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeUpdateInternal(StatementImpl.java:1333)
+	at com.mysql.cj.jdbc.StatementImpl.executeLargeUpdate(StatementImpl.java:2106)
+	at com.mysql.cj.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1243)
+	at com.rakshith.academy.classroom.MapServlet.doPost(MapServlet.java:261)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1634)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Jun 12, 2021 8:01:12 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+WARN: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+Jun 12, 2021 8:01:12 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/academyoflearners]
+Jun 12, 2021 8:01:12 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001001: Connection properties: {password=****, user=root}
+Jun 12, 2021 8:01:12 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001003: Autocommit mode: false
+Jun 12, 2021 8:01:12 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
+INFO: HHH000115: Hibernate connection pool size: 10 (min=1)
+Jun 12, 2021 8:01:12 AM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+Jun 12, 2021 8:01:12 AM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@a9881f9] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Jun 12, 2021 8:01:12 AM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+INFO: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Hibernate: 
+    select
+        subject0_.SUBJECT_ID as subject_1_4_,
+        subject0_.SUBJECT_DESC as subject_2_4_,
+        subject0_.SUBJECT_NAME as subject_3_4_ 
+    from
+        SUBJECTS subject0_ 
+    where
+        subject_id=?
+Hibernate: 
+    select
+        teacher0_.TEACHER_ID as teacher_1_5_,
+        teacher0_.TEACHER_FNAME as teacher_2_5_,
+        teacher0_.TEACHER_LNAME as teacher_3_5_ 
+    from
+        TEACHERS teacher0_ 
+    where
+        teacher_id=?
+INSERT INTO teachers_subjects(subject_id,teacher_id) VALUES (8,2 )

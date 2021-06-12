@@ -1,0 +1,639 @@
+Jun 08, 2021 5:59:26 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version name:   Apache Tomcat/8.5.61
+Jun 08, 2021 5:59:26 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Dec 3 2020 14:03:28 UTC
+Jun 08, 2021 5:59:26 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version number: 8.5.61.0
+Jun 08, 2021 5:59:26 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 10
+Jun 08, 2021 5:59:26 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.0
+Jun 08, 2021 5:59:26 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Jun 08, 2021 5:59:26 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             F:\Rakshith\SoftwareAndTools\Eclipse\2021-03\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\jre
+Jun 08, 2021 5:59:26 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           15.0.2+7-27
+Jun 08, 2021 5:59:26 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Jun 08, 2021 5:59:26 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         F:\Rakshith\Projects\Phase2Project\.metadata\.plugins\org.eclipse.wst.server.core\tmp0
+Jun 08, 2021 5:59:26 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         F:\Rakshith\SoftwareAndTools\apache-tomcat-8.5\apache-tomcat-8.5.61
+Jun 08, 2021 5:59:26 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=F:\Rakshith\Projects\Phase2Project\.metadata\.plugins\org.eclipse.wst.server.core\tmp0
+Jun 08, 2021 5:59:26 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=F:\Rakshith\SoftwareAndTools\apache-tomcat-8.5\apache-tomcat-8.5.61
+Jun 08, 2021 5:59:26 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dwtp.deploy=F:\Rakshith\Projects\Phase2Project\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps
+Jun 08, 2021 5:59:26 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dfile.encoding=Cp1252
+Jun 08, 2021 5:59:26 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:+ShowCodeDetailsInExceptionMessages
+Jun 08, 2021 5:59:26 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [F:\Rakshith\SoftwareAndTools\Eclipse\2021-03\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;F:/Rakshith/SoftwareAndTools/Eclipse/2021-03/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin/server;F:/Rakshith/SoftwareAndTools/Eclipse/2021-03/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Users\user\python;C:\Users\user\python\Library\mingw-w64\bin;C:\Users\user\python\Library\usr\bin;C:\Users\user\python\Library\bin;C:\Users\user\python\Scripts;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\Java\jdk-12.0.2\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;%JRE_HOME%;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\user\AppData\Local\Microsoft\WindowsApps;C:\Users\user\AppData\Local\atom\bin;F:\Rakshith\SoftwareAndTools\apache-tomcat-10.0.2;C:\Program Files\Java\jdk1.8.0_281\bin;C:\Program Files\Java\jre1.8.0_281;;F:\Rakshith\SoftwareAndTools\Eclipse\2021-03\eclipse;;.]
+Jun 08, 2021 5:59:26 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8080"]
+Jun 08, 2021 5:59:26 PM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Jun 08, 2021 5:59:26 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1439 ms
+Jun 08, 2021 5:59:27 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Catalina]
+Jun 08, 2021 5:59:27 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.5.61
+Jun 08, 2021 5:59:29 PM org.apache.jasper.servlet.TldScanner scanJars
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jun 08, 2021 5:59:29 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8080"]
+Jun 08, 2021 5:59:29 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2363 ms
+values jdbc:mysql://localhost:3306/academy root root
+Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+SELECT * FROM user_details WHERE username='admin'
+ Before Values are admin admin admin admin
+ success
+Hurrray ima in Class Servlet
+Jun 08, 2021 5:59:39 PM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate ORM core version 5.4.32.Final
+Jun 08, 2021 5:59:41 PM org.hibernate.annotations.common.reflection.java.JavaReflectionManager <clinit>
+INFO: HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+Jun 08, 2021 5:59:41 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+WARN: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+Jun 08, 2021 5:59:41 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/academyoflearners]
+Jun 08, 2021 5:59:41 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001001: Connection properties: {password=****, user=root}
+Jun 08, 2021 5:59:41 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001003: Autocommit mode: false
+Jun 08, 2021 5:59:41 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
+INFO: HHH000115: Hibernate connection pool size: 10 (min=1)
+Jun 08, 2021 5:59:41 PM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+Hibernate: 
+    
+    alter table CLASSROOMS_SUBJECTS 
+       drop 
+       foreign key FKbayn34axv2pdes7twstvud2w9
+Jun 08, 2021 5:59:43 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@c8a017] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Jun 08, 2021 5:59:43 PM org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl handleException
+WARN: GenerationTarget encountered exception accepting command : Error executing DDL "
+    alter table CLASSROOMS_SUBJECTS 
+       drop 
+       foreign key FKbayn34axv2pdes7twstvud2w9" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "
+    alter table CLASSROOMS_SUBJECTS 
+       drop 
+       foreign key FKbayn34axv2pdes7twstvud2w9" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:375)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:359)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:331)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:230)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:154)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:126)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:112)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:145)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:73)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:318)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:468)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:708)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:724)
+	at com.rakshith.academy.classroom.ClassServlet.doPost(ClassServlet.java:68)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1634)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.sql.SQLSyntaxErrorException: Table 'academyoflearners.classrooms_subjects' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:762)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:646)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 38 more
+
+Hibernate: 
+    
+    alter table CLASSROOMS_SUBJECTS 
+       drop 
+       foreign key FKpymg56k6hj31gfwvgtor17eim
+Jun 08, 2021 5:59:43 PM org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl handleException
+WARN: GenerationTarget encountered exception accepting command : Error executing DDL "
+    alter table CLASSROOMS_SUBJECTS 
+       drop 
+       foreign key FKpymg56k6hj31gfwvgtor17eim" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "
+    alter table CLASSROOMS_SUBJECTS 
+       drop 
+       foreign key FKpymg56k6hj31gfwvgtor17eim" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:375)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:359)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:331)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:230)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:154)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:126)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:112)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:145)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:73)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:318)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:468)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:708)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:724)
+	at com.rakshith.academy.classroom.ClassServlet.doPost(ClassServlet.java:68)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1634)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.sql.SQLSyntaxErrorException: Table 'academyoflearners.classrooms_subjects' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:762)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:646)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 38 more
+
+Hibernate: 
+    
+    alter table CLASSROOMS_TEACHERS 
+       drop 
+       foreign key FK65at5mpyd2j12k5aabvbs8y94
+Jun 08, 2021 5:59:43 PM org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl handleException
+WARN: GenerationTarget encountered exception accepting command : Error executing DDL "
+    alter table CLASSROOMS_TEACHERS 
+       drop 
+       foreign key FK65at5mpyd2j12k5aabvbs8y94" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "
+    alter table CLASSROOMS_TEACHERS 
+       drop 
+       foreign key FK65at5mpyd2j12k5aabvbs8y94" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:375)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:359)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:331)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:230)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:154)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:126)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:112)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:145)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:73)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:318)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:468)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:708)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:724)
+	at com.rakshith.academy.classroom.ClassServlet.doPost(ClassServlet.java:68)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1634)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.sql.SQLSyntaxErrorException: Table 'academyoflearners.classrooms_teachers' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:762)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:646)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 38 more
+
+Hibernate: 
+    
+    alter table CLASSROOMS_TEACHERS 
+       drop 
+       foreign key FKmmlus0a6m63opiuq5k5suig5o
+Jun 08, 2021 5:59:43 PM org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl handleException
+WARN: GenerationTarget encountered exception accepting command : Error executing DDL "
+    alter table CLASSROOMS_TEACHERS 
+       drop 
+       foreign key FKmmlus0a6m63opiuq5k5suig5o" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "
+    alter table CLASSROOMS_TEACHERS 
+       drop 
+       foreign key FKmmlus0a6m63opiuq5k5suig5o" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:375)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:359)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:331)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:230)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:154)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:126)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:112)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:145)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:73)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:318)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:468)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:708)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:724)
+	at com.rakshith.academy.classroom.ClassServlet.doPost(ClassServlet.java:68)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1634)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.sql.SQLSyntaxErrorException: Table 'academyoflearners.classrooms_teachers' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:762)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:646)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 38 more
+
+Hibernate: 
+    
+    alter table Student 
+       drop 
+       foreign key FKk4gfaeny3yaapqo73754g2jxc
+Jun 08, 2021 5:59:43 PM org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl handleException
+WARN: GenerationTarget encountered exception accepting command : Error executing DDL "
+    alter table Student 
+       drop 
+       foreign key FKk4gfaeny3yaapqo73754g2jxc" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "
+    alter table Student 
+       drop 
+       foreign key FKk4gfaeny3yaapqo73754g2jxc" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:375)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:359)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:331)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:230)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:154)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:126)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:112)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:145)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:73)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:318)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:468)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:708)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:724)
+	at com.rakshith.academy.classroom.ClassServlet.doPost(ClassServlet.java:68)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1634)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.sql.SQLSyntaxErrorException: Table 'academyoflearners.student' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:762)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:646)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 38 more
+
+Hibernate: 
+    
+    alter table TEACHERS_SUBJECTS 
+       drop 
+       foreign key FKnja06snrtwlvna20ukqt7jr1l
+Jun 08, 2021 5:59:43 PM org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl handleException
+WARN: GenerationTarget encountered exception accepting command : Error executing DDL "
+    alter table TEACHERS_SUBJECTS 
+       drop 
+       foreign key FKnja06snrtwlvna20ukqt7jr1l" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "
+    alter table TEACHERS_SUBJECTS 
+       drop 
+       foreign key FKnja06snrtwlvna20ukqt7jr1l" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:375)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:359)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:331)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:230)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:154)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:126)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:112)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:145)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:73)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:318)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:468)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:708)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:724)
+	at com.rakshith.academy.classroom.ClassServlet.doPost(ClassServlet.java:68)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1634)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.sql.SQLSyntaxErrorException: Table 'academyoflearners.teachers_subjects' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:762)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:646)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 38 more
+
+Hibernate: 
+    
+    alter table TEACHERS_SUBJECTS 
+       drop 
+       foreign key FKmdm9p2r7u6gjrtg0o84jaorxh
+Jun 08, 2021 5:59:43 PM org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl handleException
+WARN: GenerationTarget encountered exception accepting command : Error executing DDL "
+    alter table TEACHERS_SUBJECTS 
+       drop 
+       foreign key FKmdm9p2r7u6gjrtg0o84jaorxh" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "
+    alter table TEACHERS_SUBJECTS 
+       drop 
+       foreign key FKmdm9p2r7u6gjrtg0o84jaorxh" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:375)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:359)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:331)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:230)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:154)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:126)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:112)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:145)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:73)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:318)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:468)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:708)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:724)
+	at com.rakshith.academy.classroom.ClassServlet.doPost(ClassServlet.java:68)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1634)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.sql.SQLSyntaxErrorException: Table 'academyoflearners.teachers_subjects' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:762)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:646)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 38 more
+
+Hibernate: 
+    
+    drop table if exists CLASSROOMS
+Hibernate: 
+    
+    drop table if exists CLASSROOMS_SUBJECTS
+Hibernate: 
+    
+    drop table if exists CLASSROOMS_TEACHERS
+Hibernate: 
+    
+    drop table if exists hibernate_sequence
+Hibernate: 
+    
+    drop table if exists Student
+Hibernate: 
+    
+    drop table if exists SUBJECTS
+Hibernate: 
+    
+    drop table if exists TEACHERS
+Hibernate: 
+    
+    drop table if exists TEACHERS_SUBJECTS
+Hibernate: 
+    
+    create table CLASSROOMS (
+       CLASSROOM_ID integer not null auto_increment,
+        CLASSROOM_CAPEX integer,
+        CLASSROOM_NAME varchar(32) not null,
+        primary key (CLASSROOM_ID)
+    ) engine=InnoDB
+Jun 08, 2021 5:59:43 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5931ff2e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Hibernate: 
+    
+    create table CLASSROOMS_SUBJECTS (
+       SUBJECT_ID integer not null,
+        CLASSROOM_ID integer not null,
+        primary key (SUBJECT_ID, CLASSROOM_ID)
+    ) engine=InnoDB
+Hibernate: 
+    
+    create table CLASSROOMS_TEACHERS (
+       TEACHER_ID integer not null,
+        CLASSROOM_ID integer not null,
+        primary key (TEACHER_ID, CLASSROOM_ID)
+    ) engine=InnoDB
+Hibernate: 
+    
+    create table hibernate_sequence (
+       next_val bigint
+    ) engine=InnoDB
+Hibernate: 
+    
+    insert into hibernate_sequence values ( 1 )
+Hibernate: 
+    
+    create table Student (
+       student_id integer not null,
+        student_fname varchar(255),
+        student_lname varchar(255),
+        student_class_CLASSROOM_ID integer,
+        primary key (student_id)
+    ) engine=InnoDB
+Hibernate: 
+    
+    create table SUBJECTS (
+       SUBJECT_ID integer not null auto_increment,
+        SUBJECT_DESC varchar(128),
+        SUBJECT_NAME varchar(64) not null,
+        primary key (SUBJECT_ID)
+    ) engine=InnoDB
+Hibernate: 
+    
+    create table TEACHERS (
+       TEACHER_ID integer not null auto_increment,
+        TEACHER_FNAME varchar(64) not null,
+        TEACHER_LNAME varchar(64),
+        primary key (TEACHER_ID)
+    ) engine=InnoDB
+Hibernate: 
+    
+    create table TEACHERS_SUBJECTS (
+       SUBJECT_ID integer not null,
+        TEACHER_ID integer not null,
+        primary key (SUBJECT_ID, TEACHER_ID)
+    ) engine=InnoDB
+Hibernate: 
+    
+    alter table CLASSROOMS 
+       add constraint UK_rpgom2xcpofo3mrb9fk8lywex unique (CLASSROOM_NAME)
+Hibernate: 
+    
+    alter table CLASSROOMS_SUBJECTS 
+       add constraint FKbayn34axv2pdes7twstvud2w9 
+       foreign key (CLASSROOM_ID) 
+       references CLASSROOMS (CLASSROOM_ID)
+Hibernate: 
+    
+    alter table CLASSROOMS_SUBJECTS 
+       add constraint FKpymg56k6hj31gfwvgtor17eim 
+       foreign key (SUBJECT_ID) 
+       references SUBJECTS (SUBJECT_ID)
+Hibernate: 
+    
+    alter table CLASSROOMS_TEACHERS 
+       add constraint FK65at5mpyd2j12k5aabvbs8y94 
+       foreign key (CLASSROOM_ID) 
+       references CLASSROOMS (CLASSROOM_ID)
+Hibernate: 
+    
+    alter table CLASSROOMS_TEACHERS 
+       add constraint FKmmlus0a6m63opiuq5k5suig5o 
+       foreign key (TEACHER_ID) 
+       references TEACHERS (TEACHER_ID)
+Hibernate: 
+    
+    alter table Student 
+       add constraint FKk4gfaeny3yaapqo73754g2jxc 
+       foreign key (student_class_CLASSROOM_ID) 
+       references CLASSROOMS (CLASSROOM_ID)
+Hibernate: 
+    
+    alter table TEACHERS_SUBJECTS 
+       add constraint FKnja06snrtwlvna20ukqt7jr1l 
+       foreign key (TEACHER_ID) 
+       references TEACHERS (TEACHER_ID)
+Hibernate: 
+    
+    alter table TEACHERS_SUBJECTS 
+       add constraint FKmdm9p2r7u6gjrtg0o84jaorxh 
+       foreign key (SUBJECT_ID) 
+       references SUBJECTS (SUBJECT_ID)
+Jun 08, 2021 6:00:21 PM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+INFO: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Jun 08, 2021 6:00:21 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState stop
+INFO: HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost/academyoflearners]

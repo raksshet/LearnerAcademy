@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Class Form</title>
+</head>
+<body>
+<div class="container">
+  <form name=classroomfrmName method="post" action="ClassServlet" >
+    
+    <div class="row">
+      <div class="col-25">
+        <label for="classname">Class Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="classname" name="classname" placeholder="Class name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="classcapacity">Class Capacity</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="classcapacity" name="classcapacity" placeholder="Class Capacity..">
+      </div>
+    </div>
+    <div class="row">
+      <SPAN style='color:black'> Please enter the subject details that to be mapped with this new class </SPAN>
+      </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subjectname">Subject Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="subjectname" name="subjectname" placeholder="Subject Name..">
+      </div>
+     </div> 
+     <div class="row">
+      <div class="col-25">
+        <label for="subjectdesc">Subject Desc</label>
+      </div>
+       <div class="row">
+      <SPAN style='color:black'> Please enter the Teacher details that to be mapped with this new class </SPAN>
+      </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="teachername">Teacher Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="teachername" name="teachername" placeholder="Teacher Name..">
+      </div>
+     </div> 
+     <div class="row">
+      <div class="col-25">
+        <label for="subjectdesc">Subject Desc</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="subjectdesc" name="subjectdesc" placeholder="Subject Desc..">
+      </div>
+     </div>
+      <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+    </form>
+    </div>
+</body>
+</html>
